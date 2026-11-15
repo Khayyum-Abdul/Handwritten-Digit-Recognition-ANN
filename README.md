@@ -58,29 +58,25 @@ The model has **109,386 trainable parameters**.
 ```text
 Handwritten_Digit_Recognition_ANN/
 │
-├── 01_Report/
-│   ├── Mini_Project_Report.docx
-│   └── Mini_Project_Report.pdf
-│
-├── 02_Source_Code/
+├── Source_Code/
 │   ├── Handwritten_Digit_Recognition_ANN.ipynb
 │   ├── app.py
 │   └── requirements.txt
 │
-├── 03_Model/
+├── Model/
 │   └── handwritten_digit_ann.keras
 │
-├── 04_Dataset/
+├── Dataset/
 │   └── README.txt
 │
-├── 05_Screenshots/
+├── Screenshots/
 │   ├── dataset_samples.png
 │   ├── training_output.png
 │   ├── accuracy_loss_graphs.png
 │   ├── confusion_matrix.png
 │   └── streamlit_app.png
 │
-├── 06_Results/
+├── Results/
 │   ├── ANN_Classification_Report.csv
 │   └── ANN_Confusion_Matrix.csv
 │
@@ -135,17 +131,3 @@ The `06_Results` folder contains the classification report and confusion matrix 
 - The fully connected ANN does not preserve spatial relationships between image pixels as effectively as a convolutional neural network.
 - User-drawn digits can be affected by stroke thickness, position, size, and preprocessing.
 - Future improvements may include using a CNN, data augmentation, and improved preprocessing for user-drawn images.
-
-## Team Members
-
-| Roll Number | Name |
-|---|---|
-| 23PA1A0502 | Abdul Khayyum |
-| 23PA1A0503 | A Chanukya Naidu |
-| 23PA1A0504 | A Rushi Karthik |
-| 23PA1A0505 | A Mahathi |
-| 23PA1A0506 | A Balanjaneyulu |
-
-**Institution:** Vishnu Institute of Technology  
-**Department:** Computer Science and Engineering  
-**Academic Year:** 2026–2027
